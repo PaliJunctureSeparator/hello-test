@@ -2373,5 +2373,7 @@ If you have any questions, checkout our [documentation](https://docs.streamlit.i
 forums](https://discuss.streamlit.io).
 
 """
+show_app_code = st.checkbox (label='Show Pāḷi Text Juncture Separator app code')
 
-show_code(animation_demo)
+if show_app_code:
+    show_code(animation_demo)
