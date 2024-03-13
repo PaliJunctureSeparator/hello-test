@@ -24,8 +24,11 @@ st.divider()
 st.markdown("<h4 style='text-align: center;'>Start separating Pāḷi text in 3 easy steps:</h4>", unsafe_allow_html=True)
 st.divider()
 
-def animation_demo() -> None:
+"""
+**1. Insert Pāḷi text here:**
+"""
 
+def animation_demo() -> None:
     # Insert Text
     insert_text = st.text_area('', height=200, placeholder="e.g. \nNamo tassa bhagavato arahato sammāsambuddhassa.")
 
