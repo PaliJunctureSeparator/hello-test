@@ -17,12 +17,9 @@ from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
 
-
-def run():
-    st.set_page_config(
-        page_title="Pāḷi Text Juncture Separator",
-        page_icon="🌴",
-    )
+st.set_page_config(
+  page_title="Pāḷi Text Juncture Separator",
+  page_icon="🌴")
 
 st.write("# Welcome to Pali! 👋")
 
@@ -39,5 +36,3 @@ Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-ub
 )
 
 
-if __name__ == "__main__":
-    run()
